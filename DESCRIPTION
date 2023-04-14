@@ -1,11 +1,27 @@
 Package: ShinyforUL
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Shiny web application for using unsupervised learning techniques
+Version: 1.0.0
+Authors@R: c(
+  person("Josué", "AFOUDA", email = "afouda.josue@gmail.com", role = c("aut", "cre")),
+  person("J.A", "DATATECH CONSULTING", email = "j.a.datatech.consulting@gmail.com", role = "ctb"))
+Maintainer: The package maintainer <afouda.josue@gmail.com>
+Description: This application allows you to use a graphical interface 
+    in order to perform several analyzes in your dataset. 
+    You can e.g. perform clustering with the K-Means algorithm or 
+    perform dimensionality reduction using Principal Component Analysis (PCA) 
+    or T-SNE(T-distributed Stochastic Neighbor Embedding).
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
+Depends: 
+    R (>= 2.10)
+Imports: 
+    DT,
+    factoextra,
+    ggplot2,
+    plotly,
+    Rtsne,
+    shiny,
+    shinythemes
+RoxygenNote: 7.2.2
