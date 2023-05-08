@@ -1,3 +1,4 @@
+![](ShinyforUL.png)
 
 # ShinyforUL: R Shiny web app as a package for applying Unsupervised Learning methods.
 
